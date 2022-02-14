@@ -11,6 +11,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Второе задание
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecondProjects", "SecondProjects\SecondProjects.csproj", "{36473FB4-4F29-45BF-961C-D193828BA009}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Третье задание", "Третье задание", "{D687C6D5-EFF3-4BE0-89D1-44808A3BA144}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThirdProjects", "ThirdProjects\ThirdProjects.csproj", "{5B5DD2B0-EB1E-445F-AFA9-ECD6D55B83E3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +29,10 @@ Global
 		{36473FB4-4F29-45BF-961C-D193828BA009}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{36473FB4-4F29-45BF-961C-D193828BA009}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{36473FB4-4F29-45BF-961C-D193828BA009}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B5DD2B0-EB1E-445F-AFA9-ECD6D55B83E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B5DD2B0-EB1E-445F-AFA9-ECD6D55B83E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B5DD2B0-EB1E-445F-AFA9-ECD6D55B83E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B5DD2B0-EB1E-445F-AFA9-ECD6D55B83E3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -32,6 +40,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{F47B4BF3-35D6-406F-8523-2750A45EF71B} = {29E02A7E-4957-4F61-9295-90147422996B}
 		{36473FB4-4F29-45BF-961C-D193828BA009} = {4DFB6107-0F9A-4E8D-B64B-6D60089BDF45}
+		{5B5DD2B0-EB1E-445F-AFA9-ECD6D55B83E3} = {D687C6D5-EFF3-4BE0-89D1-44808A3BA144}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {08C79A4F-AFA1-48EF-8E48-FE969576D0B5}

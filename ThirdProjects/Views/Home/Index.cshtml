@@ -1,0 +1,30 @@
+﻿@model IEnumerable<ThirdProjects.Models.Product>
+@{
+    Layout = null;
+}
+
+<h2>Вывод в виде списка</h2>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Strongly Typed Partial Views</title>
+</head>
+<body>
+
+    <div>
+        @foreach (var item in Model)
+        {
+            @Html.Partial("_ProductDesc", item)
+        }
+    </div>
+
+    <h2>Вывод в виде таблицы</h2>
+    <div>
+        @foreach (var item in Model)
+        {
+            @Html.Partial("_ProductTable", item)
+        }
+    </div>
+</body>
+</html>
+
