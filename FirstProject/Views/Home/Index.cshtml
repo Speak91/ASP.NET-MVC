@@ -1,0 +1,26 @@
+﻿@{
+    Layout = null;
+    @model IEnumerable<FirstProject.Models.Product>
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Таблица продуктов</title>
+</head>
+<body>
+    <table>
+       <tr>
+           <th>Номер</th>
+           <th>Наименование</th>
+           <th>Цена</th>
+       </tr>
+   @foreach (var item in Model)
+   {
+       <tr><td>@item.Id</td><td>@item.Name</td><td>@item.Price</td></tr>
+   }
+        </table>
+</body>
+</html>
