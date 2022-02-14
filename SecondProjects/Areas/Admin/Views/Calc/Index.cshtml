@@ -1,0 +1,24 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link href="style.css" rel="stylesheet" />
+    <title>Index</title>
+</head>
+<body>
+    <div>
+        @Html.RouteLink("Пользовательская часть", new { controller = "Home", action = "Index", Area = "" })
+        @Html.ActionLink("Calc/Add/10/20", "Add", new { x = 10, y = 20 })<br />
+        @Html.ActionLink("Calc/Mul/5/5", "Mul", new { x = 5, y = 5 })<br />
+        @Html.ActionLink("Calc/Sub/10/3", "Sub", new { x = 10, y = 3 })<br />
+        @Html.ActionLink("Calc/Div/10/2", "Div", new { x = 10, y = 2 })<br />
+        Результат @ViewBag.Result
+    </div>
+</body>
+</html>

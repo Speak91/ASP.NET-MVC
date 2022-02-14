@@ -5,6 +5,12 @@ VisualStudioVersion = 16.0.32106.194
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstProject", "FirstProject\FirstProject.csproj", "{F47B4BF3-35D6-406F-8523-2750A45EF71B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Первое задание", "Первое задание", "{29E02A7E-4957-4F61-9295-90147422996B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Второе задание", "Второе задание", "{4DFB6107-0F9A-4E8D-B64B-6D60089BDF45}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecondProjects", "SecondProjects\SecondProjects.csproj", "{36473FB4-4F29-45BF-961C-D193828BA009}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +21,17 @@ Global
 		{F47B4BF3-35D6-406F-8523-2750A45EF71B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F47B4BF3-35D6-406F-8523-2750A45EF71B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F47B4BF3-35D6-406F-8523-2750A45EF71B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36473FB4-4F29-45BF-961C-D193828BA009}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36473FB4-4F29-45BF-961C-D193828BA009}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36473FB4-4F29-45BF-961C-D193828BA009}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36473FB4-4F29-45BF-961C-D193828BA009}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F47B4BF3-35D6-406F-8523-2750A45EF71B} = {29E02A7E-4957-4F61-9295-90147422996B}
+		{36473FB4-4F29-45BF-961C-D193828BA009} = {4DFB6107-0F9A-4E8D-B64B-6D60089BDF45}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {08C79A4F-AFA1-48EF-8E48-FE969576D0B5}
